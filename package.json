@@ -1,0 +1,17 @@
+{
+  "name": "nodejs-stream-studies",
+  "version": "1.0.0",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "client": "nodemon src/client.js",
+    "server": "nodemon src/server.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  },
+  "dependencies": {
+    "axios": "^0.27.2"
+  }
+}
